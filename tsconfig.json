@@ -1,6 +1,6 @@
 {
   "extends": "ts-config-single-spa",
-  "files": ["src/poc-singlespa-root-config.ts"],
+  "files": ["src/poc-mf-react-root-config.ts"],
   "compilerOptions": {
     "declarationDir": "dist"
   },
