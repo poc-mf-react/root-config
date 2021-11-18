@@ -19,12 +19,16 @@
 
   <main>
     <application name="@poc-mf-react/header"></application>
-	<div>
-      <application name="@poc-mf-react/spotlight"></application>
-	  <div>
-        <application name="@poc-mf-react/discovery"></application>
-        <application name="@poc-mf-react/blog"></application>
-	  </div>
-	</div>
+    <div class="container">
+      <div class="content">
+        <application name="@poc-mf-react/spotlight"></application>
+        <div class="information">
+          <div class="discovery">
+            <application name="@poc-mf-react/discovery"></application>
+          </div>
+          <application name="@poc-mf-react/blog"></application>
+        </div>
+      </div>
+    </div>
   </main>
 </single-spa-router>
